@@ -55,9 +55,7 @@ bool PasswordChecker(int counter) {
 
     counter++;
 
-    PasswordChecker(counter);
-
-    return false;
+    return PasswordChecker(counter);
 }
 
 void Circumference_Circle() {
